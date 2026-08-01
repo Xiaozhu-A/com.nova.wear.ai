@@ -1,0 +1,322 @@
+<View id="37" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+visibility=visible
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="176" did="37" type="CoordinatorLayout">
+<ppt>
+width=-1
+height=-1
+background=@background.jpg
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+else
+{
+}
+</eventItme>
+</event>
+</View>
+<View id="4" did="176" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+paddingLeft=0dp
+paddingRight=0dp
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="6" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="36" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="382" did="7" type="LinearLayout">
+<ppt>
+width=-1
+height=35dp
+orientation=horizontal
+layout_gravity=right
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="399" did="382" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=AI翻译
+textColor=#ffffffff
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="385" did="382" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=right
+layout_gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="386" did="385" type="ImageView">
+<ppt>
+width=-2
+height=-1
+src=@2Y.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="237" did="7" type="CardView">
+<ppt>
+width=-1
+height=35dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="238" did="237" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="240" did="238" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="405" did="240" type="EditText">
+<ppt>
+width=-1
+height=-1
+text=
+hint=  待翻译内容
+textColor=#ffffffff
+textColorHint=#9e9e9e
+textSize=12sp
+singleLine=true
+background=through
+ellipsize=end
+layout_marginLeft=10dp
+layout_marginRight=10dp
+imeOptions=actiongo
+</ppt>
+<event>
+</event>
+</View>
+<View id="400" did="7" type="CardView">
+<ppt>
+width=-1
+height=35dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+ug(404,"text",zt)
+f(zt=="翻译")
+{
+us(404,"text","思考中...")
+us(411,"visibility","visible")
+t()
+{
+sss api_url="https://api.pearapi.ai/api/translate/ai"
+ug(405,"text",xx)
+ss("{\"text\":\""+xx+"\"}",data)
+syso(data)
+hs(sss.api_url, data, "utf-8", ym)
+ufnsui()
+{
+f(ym!=null)
+{
+json(ym,jo)
+json(jo, "get", "msg",msg)
+json(jo,"get","data",data)
+ss(msg+"\n翻译结果："+data,content)
+}
+else
+{
+	s content="获取失败"
+}
+us(410,"text",content)
+us(404,"text","翻译")
+us(411,"visibility","gone")
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="401" did="400" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="402" did="401" type="HorizontalScrollView">
+<ppt>
+width=-2
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="403" did="402" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="411" did="403" type="ProgressBar">
+<ppt>
+width=25dp
+height=-2
+style=16842874
+layout_marginRight=5dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="404" did="403" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=翻译
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="406" did="7" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="press">
+fe("$sz/音效",yxsz)
+f(yxsz=="true")
+{
+fr("$sz/音效",szyx)
+f(szyx=="true")
+{
+bfm("@music.mp3",sss.starbgm)
+}
+else
+{
+}
+}
+ug(410,"text",a)
+sxb(a)
+tw("复制成功")
+</eventItme>
+</event>
+</View>
+<View id="407" did="406" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=left|center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="410" did="407" type="TextView">
+<ppt>width=-2
+height=-2
+text=嗨！我是万能翻译AI助手\n我能自动识别待翻译的所属语言，并进行高准确度翻译为中文。\n长按可复制本信息哦～
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+layout_margin=5dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)
+</eventItme></UIEventset>
