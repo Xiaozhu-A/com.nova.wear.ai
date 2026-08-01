@@ -1,0 +1,263 @@
+<View id="1" did="0" type="CoordinatorLayout">
+<ppt>
+width=-1
+background=black
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+visibility=visible
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="4" type="ScrollView">
+<ppt>
+width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>
+width=-1
+height=20dp
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=发现新版本
+textColor=#ffffffff
+textSize=13.5sp
+textStyle=bold
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+<eventItme type="touchmonitor">
+</eventItme>
+</event>
+</View>
+<View id="20" did="17" type="LinearLayout">
+<ppt>
+width=-1
+height=40dp
+orientation=horizontal
+gravity=center
+layout_marginTop=5dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="21" did="20" type="ImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@gx.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="17" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+gravity=center|left
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新内容\n666
+textColor=#ffffffff
+textSize=12sp
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="17" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+gravity=center|left
+</ppt>
+<event>
+</event>
+</View>
+<View id="30" did="17" type="LinearLayout">
+<ppt>
+width=-1
+height=35dp
+orientation=horizontal
+gravity=center
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="30" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardBackgroundColor=#2e2e2e
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardmaxElevation=0dp
+paddingRight=2dp
+paddingLeft=2dp
+layout_weight=1
+layout_marginRight=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#d1d1d1
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+end()
+</eventItme>
+</event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=退出应用
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="30" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardBackgroundColor=#2e2e2e
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardmaxElevation=0dp
+paddingRight=2dp
+paddingLeft=2dp
+layout_weight=1
+layout_marginLeft=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#d1d1d1
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+us(39,"text","Loading...")
+t()
+{
+hd(sss.gxurl,"%腕上AI.apk", true, zt)
+syso(zt)
+ufnsui()
+{
+f(zt==0)
+{
+us(39,"text","下载成功")
+fo("%腕上AI.apk")
+}
+else
+{
+	us(39,"text","下载失败")
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=立即更新
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)
+us(27,"text",sss.gxnr)
+us(19,"text","发现新版本 "+sss.xbb)</eventItme>
+</UIEventset>
