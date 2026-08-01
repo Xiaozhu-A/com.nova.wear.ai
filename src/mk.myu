@@ -1,0 +1,11 @@
+fn music()
+fe("$sz/音效",yxsz)
+f(yxsz=="true")
+{
+fr("$sz/音效",szyx)
+f(szyx=="true")
+{
+bfm("@music.mp3",sss.starbgm)
+}
+}
+end fn
