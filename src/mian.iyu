@@ -1,0 +1,384 @@
+<View id="37" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=visible
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="176" did="37" type="CoordinatorLayout">
+<ppt>
+width=-1
+height=-1
+background=@background.jpg
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+else
+{
+}
+</eventItme>
+</event>
+</View>
+<View id="4" did="176" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+paddingLeft=0dp
+paddingRight=0dp
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="6" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="382" did="7" type="LinearLayout">
+<ppt>width=-1
+height=35dp
+orientation=horizontal
+layout_gravity=right
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="399" did="382" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=腕上AI
+textColor=#ffffffff
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="385" did="382" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=right
+layout_gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="386" did="385" type="ImageView">
+<ppt>
+width=-2
+height=-1
+src=@2Y.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="400" did="7" type="CardView">
+<ppt>
+width=-1
+height=40dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+uigo("ai_chat.iyu")
+</eventItme>
+</event>
+</View>
+<View id="401" did="400" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+BackgroundRipple=#ffffffff
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="431" did="401" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_chat.png
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="404" did="401" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=AI对话
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="411" did="7" type="CardView">
+<ppt>
+width=-1
+height=40dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+uigo("ai_draw.iyu")
+</eventItme>
+</event>
+</View>
+<View id="412" did="411" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+BackgroundRipple=#ffffffff
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="432" did="412" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_draw.png
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="415" did="412" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=AI绘画
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="426" did="7" type="CardView">
+<ppt>
+width=-1
+height=40dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+uigo("ai_tran.iyu")
+</eventItme>
+</event>
+</View>
+<View id="427" did="426" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+BackgroundRipple=#ffffffff
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="433" did="427" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_tran.png
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="430" did="427" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=AI翻译
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="416" did="7" type="CardView">
+<ppt>
+width=-1
+height=40dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+uigo("set.iyu")
+</eventItme>
+</event>
+</View>
+<View id="417" did="416" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+BackgroundRipple=#ffffffff
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="434" did="417" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_set.png
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="420" did="417" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=设置
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="421" did="7" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn mk.music()
+uigo("about.iyu")
+</eventItme>
+</event>
+</View>
+<View id="422" did="421" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+BackgroundRipple=#ffffffff
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="435" did="422" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@ic_about.png
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="425" did="422" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=关于应用
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)
+sss version="V1.0.2"
+t()
+{
+	hs("https://yuju.99kpk.top:81/lua/luawdlj.php?wdid=bab3405f71648e7e8745d36cc351d603&mode=txt",ym)
+    syso(ym)
+	ufnsui()
+	{
+		sj(ym,"【版本：","】",sss.xbb)
+		sj(ym,"《更新内容：","》",sss.gxnr)
+		sj(ym,"{更新地址：","}",sss.gxurl)
+		sj(ym,"{开源地址：","}",sss.github)
+		f(sss.github==null)
+		{
+			sss github="获取失败"
+		}
+		f(sss.version!=sss.xbb)
+		{
+			f(sss.xbb==null)
+			{
+				tw("无网络")
+			}
+			else
+			{
+				tw("发现新版本啦")
+				uigo("gx.iyu")
+				end()
+			}
+		}
+	}
+}</eventItme></UIEventset>
