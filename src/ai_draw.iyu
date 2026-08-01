@@ -1,0 +1,380 @@
+<View id="37" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+visibility=visible
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="176" did="37" type="CoordinatorLayout">
+<ppt>
+width=-1
+height=-1
+background=@background.jpg
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+else
+{
+}
+</eventItme>
+</event>
+</View>
+<View id="4" did="176" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+paddingLeft=0dp
+paddingRight=0dp
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="6" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=through
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="36" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="382" did="7" type="LinearLayout">
+<ppt>
+width=-1
+height=35dp
+orientation=horizontal
+layout_gravity=right
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="399" did="382" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=AI绘画
+textColor=#ffffffff
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="385" did="382" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=right
+layout_gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="386" did="385" type="ImageView">
+<ppt>
+width=-2
+height=-1
+src=@2Y.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="237" did="7" type="CardView">
+<ppt>
+width=-1
+height=35dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="238" did="237" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="240" did="238" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="405" did="240" type="EditText">
+<ppt>
+width=-1
+height=-1
+text=
+hint=  绘图描述
+textColor=#ffffffff
+textColorHint=#9e9e9e
+textSize=12sp
+singleLine=true
+background=through
+ellipsize=end
+layout_marginLeft=10dp
+layout_marginRight=10dp
+imeOptions=actiongo
+</ppt>
+<event>
+</event>
+</View>
+<View id="400" did="7" type="CardView">
+<ppt>
+width=-1
+height=35dp
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+<eventItme type="clicki">fn mk.music()
+us(413,"text","此功能暂时关闭")
+/.
+ug(404,"text",zt)
+f(zt=="开始绘画")
+{
+us(404,"text","绘画中...")
+us(413,"text","绘画中...")
+us(411,"visibility","visible")
+t()
+{
+sss api_url="https://missqiu.cnunon.cn/api/baiduaihuiHua?prompt="
+ug(405,"text",xx)
+ss drawmsg=xx
+ss(sss.api_url+xx+,post)
+hs(post,ym)
+json(ym,jo)
+json(jo,"get","image_url",image_url)
+ufnsui()
+{
+us(413,"text","绘画成功")
+us(404,"text","开始绘画")
+us(411,"visibility","gone")
+us(418,"src",image_url)
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="401" did="400" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="402" did="401" type="HorizontalScrollView">
+<ppt>
+width=-2
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="403" did="402" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="411" did="403" type="ProgressBar">
+<ppt>
+width=25dp
+height=-2
+style=16842874
+layout_marginRight=5dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="404" did="403" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=开始绘画
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="406" did="7" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="407" did="406" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=left|center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+
+<eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="409" did="407" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="413" did="409" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=嗨！我是NovaMindAI\n我可以帮你生成插画、设计、场景图，把你的想法告诉我吧~\n长按下方图片可以保存至相册哦~
+textColor=#ffffffff
+textSize=10sp
+textStyle=bold
+layout_gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="414" did="7" type="CardView">
+<ppt>
+width=-1
+height=-2
+app_CardBackgroundColor=#18ffffff
+app_CardcornerRadius=10dp
+app_CardElevation=0
+layout_marginTop=2dp
+app_CardBackgroundColor=#18ffffff
+layout_marginLeft=2dp
+layout_marginRight=2dp
+layout_marginBottom=2dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="415" did="414" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=left|center
+BackgroundRipple=#ffffffff
+</ppt>
+<event>
+<eventItme type="press">
+fn mk.music()
+time(2,time)
+ss(ss.drawmsg+time,name)
+t()
+{
+ug(418,"src",url)
+hd(url,name,true, c)
+syso(c)
+f(c==0)
+{
+ufnsui()
+{
+tw("保存成功")
+}
+}
+else
+{
+ufnsui()
+{
+tw("保存失败")
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="416" did="415" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="418" did="416" type="ImageView">
+<ppt>
+width=45dp
+height=45dp
+src=17301567
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)</eventItme></UIEventset>
