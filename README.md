@@ -1,4 +1,4 @@
 # 腕上AI
-# com.nova.wear.ai
+## com.nova.wear.ai
 腕上AI，一款便携的智能手表应用，集AI对话、绘图与翻译于一体。
 此仓库为本应用源码，已停止更新。
